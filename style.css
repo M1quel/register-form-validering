@@ -37,13 +37,11 @@ body{
     height: 100vh;
 }
 .person-oplysninger{
-    display: flex;
     width: 100%;
     padding: 20px;
     margin-bottom: 20px;
 }
 .bruger-oplysninger{
-    display: flex;
     width: 100%;
     padding: 20px;
 }
