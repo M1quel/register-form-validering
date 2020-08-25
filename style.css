@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+label{
+    font-size: 22px;
+}
+form{
+    background-color: rgb(241, 241, 241);
+    padding: 40px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 15px;
+    width: 700px;
+}
+input{
+    height: 45px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 7px;
+    font-size: 20px;
+}
+fieldset legend{
+    padding: 0 10px;
+    font-size: 27px;
+}
+fieldset{
+    border-radius: 10px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.person-oplysninger{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.bruger-oplysninger{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+.name-wrapper{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.city-wrapper{
+    width: 49%;
+}
+.address-wrapper{
+    width: 100%;
+}
+.city-postal{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.bruger-oplysninger div{
+    margin-bottom: 20px;
+}
+.submitBtn{
+    width: 40%;
+    height: 50px;
+    background-color: rgb(148, 148, 148);
+    color: white;
+    font-size: 17px;
+    margin-top: 15px;
+    border: rgb(105, 105, 105) 2px solid;
+    border-radius: 7px;
+}
+.road-name-wrapper{
+    margin-top: 20px;
+}

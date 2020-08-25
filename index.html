@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register form validering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <fieldset class="person-oplysninger">
+            <legend>Person oplysninger</legend>
+            <div class="name-wrapper">
+                <div class="name">
+                    <label for="firstname">Firstname</label>
+                    <input placeholder="Ex. Elon" type="text" name="firstname" id="firstname">
+                    <span class="statusMessage statusMessage-firstname"></span>
+                </div>
+                <div class="name">
+                    <label for="lastname">Lastname</label>
+                    <input placeholder="Ex. Musk" type="text" name="lastname" id="lastname">
+                    <span class="statusMessage statusMessage-lastname"></span>
+                </div>
+            </div>
+            <div class="address-wrapper">
+                <div class="city-postal">
+                    <div class="city-wrapper">
+                        <label for="city-name">City name</label>
+                        <input placeholder="Ex. Boeslunde" type="text" name="city name" id="city-name">
+                        <span class="statusMessage statusMessage-city-name"></span>
+                    </div>
+                    <div class="city-wrapper">
+                        <label for="postal-code">Postal code</label>
+                        <input placeholder="Ex. 4242" type="number" name="postal code" id="postal-code">
+                        <span class="statusMessage statusMessage-postal-code"></span>
+                    </div>
+                </div>
+                <div class="road-name-wrapper">
+                    <label for="road-name">Address</label>
+                    <input placeholder="Ex. Boeslunde byvej 142" type="text" name="road name" id="road-name">
+                    <span class="statusMessage statusMessage-address"></span>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset class="bruger-oplysninger">
+            <legend> Bruger oplysninger </legend>
+            <div class="username-wrapper">
+                <label for="username">Username</label>
+                <input placeholder="Ex. EpicGamer123"type="text" name="username" id="username">
+                <span class="statusMessage statusMessage-username"></span>
+            </div>
+            <div class="email-wrapper">
+                <label for="email">Email</label>
+                <input placeholder="Ex. EpicGamer123@gamer.com" type="email" name="email" id="email">
+                <span class="statusMessage statusMessage-email"></span>
+            </div>
+            <div class="password-wrapper">
+                <label for="password">Password</label>
+                <input placeholder="Insert password" type="password" name="password" id="password">
+                <span class="statusMessage statusMessage-password"></span>
+            </div>
+        </fieldset>
+        <button class="submitBtn" type="submit">Create user</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
